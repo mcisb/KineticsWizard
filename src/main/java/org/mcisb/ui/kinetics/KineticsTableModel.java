@@ -83,7 +83,6 @@ public class KineticsTableModel extends DefaultTableModel
 	 * @param experimentSet
 	 * @throws Exception
 	 */
-	@SuppressWarnings("unchecked")
 	public KineticsTableModel( final KineticsExperimentSet experimentSet ) throws Exception
 	{
 		boolean hasHillCoefficients = false;

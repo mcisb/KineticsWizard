@@ -124,7 +124,7 @@ public class KineticsExperimentWriter
 	/**
 	 * 
 	 * @param methodName
-	 * @return
+	 * @return String
 	 * @throws Exception
 	 */
 	private String writeMethod( final String methodName ) throws Exception
@@ -183,7 +183,7 @@ public class KineticsExperimentWriter
 	 * @param experimentProtocol
 	 * @param experimentTypeId
 	 * @param methodId
-	 * @return
+	 * @return String
 	 * @throws Exception
 	 */
 	private String writeExperimentProtocol( final UniqueObject experimentProtocol, final String experimentTypeId, final String methodId ) throws Exception

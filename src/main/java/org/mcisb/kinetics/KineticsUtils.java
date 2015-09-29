@@ -133,10 +133,11 @@ public abstract class KineticsUtils
 	}
 
 	/**
+	 * 
 	 * @param kineticLaw
-	 * @param hillCoefficient
-	 * @return Parameter
-	 * @throws Exception 
+	 * @param sboTermId
+	 * @return LocalParameter
+	 * @throws Exception
 	 */
 	public static LocalParameter addParameter( final KineticLaw kineticLaw, final int sboTermId ) throws Exception
 	{

@@ -23,8 +23,9 @@ import org.mcisb.util.io.*;
  * 
  *
  * @author Neil Swainston
- * @Deprecated
+ * @deprecated
  */
+@Deprecated
 public class SabioSubmitter
 {
 	/**

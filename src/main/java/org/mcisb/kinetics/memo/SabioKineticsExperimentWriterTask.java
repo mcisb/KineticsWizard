@@ -14,6 +14,7 @@ package org.mcisb.kinetics.memo;
 import java.io.*;
 import java.net.*;
 import java.util.*;
+
 import org.mcisb.kinetics.*;
 import org.mcisb.kinetics.sabio.*;
 import org.mcisb.util.xml.*;
@@ -29,6 +30,7 @@ public class SabioKineticsExperimentWriterTask extends KineticsExperimentWriterT
 	 * (non-Javadoc)
 	 * @see org.mcisb.util.remote.RemoteTaskImpl#doTask()
 	 */
+	@SuppressWarnings("deprecation")
 	@Override
 	protected Serializable doTask() throws Exception
 	{

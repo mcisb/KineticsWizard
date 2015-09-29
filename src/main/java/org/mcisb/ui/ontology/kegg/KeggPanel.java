@@ -17,8 +17,10 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 import java.util.prefs.*;
+
 import javax.swing.*;
 import javax.swing.event.*;
+
 import org.mcisb.ontology.*;
 import org.mcisb.ontology.kegg.*;
 import org.mcisb.ui.util.*;
@@ -590,6 +592,7 @@ public class KeggPanel extends ParameterPanel implements ActionListener, ItemLis
 		 * (non-Javadoc)
 		 * @see java.lang.Runnable#run()
 		 */
+		@SuppressWarnings("unchecked")
 		@Override
 		public void run()
 		{
